@@ -1,6 +1,6 @@
 ---
-      # tasks file for docker
-      - name: greate image docker
+# tasks file for docker
+      - name: create image docker
         docker image:
           name: devops
           build:
