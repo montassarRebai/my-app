@@ -1,8 +1,8 @@
 ---
 - hosts: localhost
-  become: true
   become_method: sudo
-  become_user: root
+  become_user: Jenkins
+  become: true
   gather_facts: true
   roles:
    - { role: build }
