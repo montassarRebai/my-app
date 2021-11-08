@@ -11,7 +11,7 @@ pipeline {
                script{
 			       checkout([$class: 'GitSCM', branches: [[name: '*/test']],
 	                  userRemoteConfigs: [[
-						  credentialsId: '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',
+						  credentialsId: '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',
 						  url: 'https://github.com/montassarRebai/my-app.git']]])
 			   }
                 
