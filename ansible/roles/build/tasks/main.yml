@@ -1,3 +1,4 @@
 #buidproject
         - name: build app
+          shell: cd /home/monta/my-app
           shell: ng build --prod
