@@ -1,7 +1,5 @@
 ---
 - hosts: localhost
-  become_method: sudo
-  become_user: monta
   become: true
   roles:
    - { role: build }
