@@ -6,7 +6,7 @@
     password: monta0660
     email: montassar.rebai@esprit.tn
 - name: Push to docker hub
-  ansible.builtin.shell: docker push aze012/myapp
+  ansible.builtin.shell: docker push devops
 
 - name: Push to docker hub
   docker_image:
