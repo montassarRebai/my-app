@@ -4,4 +4,4 @@
   become_user: root
   roles:
    - { role: build }
-  ignore_errors: true 
+
