@@ -1,0 +1,15 @@
+---
+# tasks file for docker-registry
+- name: Log into DockerHub
+  docker_login:
+    username: aze012
+    password: monta0660
+    email: montassar.rebai@esprit.tn
+- name: Push to docker hub
+  ansible.builtin.shell: docker push aze012/myapp
+
+- name: Push to docker hub
+  docker_image:
+    name: "myappv1"
+    repository: aze012/myapp
+    push: yes
