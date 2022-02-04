@@ -8,7 +8,7 @@ pipeline {
        stage('Install Local Envirement ') {
              steps{
                 script{
-                    sh "sudo npm install"
+                    sh " npm install"
                 }
             }
         }
